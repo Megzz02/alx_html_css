@@ -1,0 +1,151 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #fff; /* General background */
+    color: #333; /* General text color */
+}
+
+/* Header styling */
+header {
+    background-color: #0E1B29; /* Navy background */
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    margin: 0;
+}
+
+.nav-links a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #FF6565; /* Hover effect */
+}
+
+/* "What we do" section */
+.what-we-do {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff; /* White background */
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.what-we-do h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.what-we-do p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 50px;
+}
+
+.icon-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.icon-item {
+    text-align: center;
+    flex: 1; /* Ensures icons are evenly spaced */
+}
+
+.icon-item img {
+    width: 80px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.icon-item img:hover {
+    transform: scale(1.2); /* Enlarge icon on hover */
+}
+
+/* "Our results" section */
+.our-results {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #0E1B29; /* Navy background */
+    color: white;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.our-results h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.our-results p {
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+}
+
+.pentagon-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pentagon-item {
+    text-align: center;
+    width: 22%;
+    position: relative;
+}
+
+.pentagon {
+    width: 100px;
+    height: 100px;
+    background-color: #FF6565;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+
+.pentagon:hover {
+    transform: rotate(360deg); /* Simple hover effect */
+    transition: transform 1s ease-in-out;
+}
+
+.pentagon-item p {
+    font-size: 1.5rem;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
