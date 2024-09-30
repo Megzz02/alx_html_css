@@ -1,0 +1,14 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Add any other general styles here */
