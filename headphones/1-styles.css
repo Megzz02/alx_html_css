@@ -50,3 +50,45 @@ nav {
 .nav-links a:hover {
     color: #FF6565; /* Hover effect */
 }
+
+/* "What we do" section */
+.what-we-do {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff; /* White background */
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.what-we-do h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.what-we-do p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 50px;
+}
+
+.icon-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.icon-item {
+    text-align: center;
+    flex: 1; /* Ensures icons are evenly spaced */
+}
+
+.icon-item img {
+    width: 80px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.icon-item img:hover {
+    transform: scale(1.2); /* Enlarge icon on hover */
+}
